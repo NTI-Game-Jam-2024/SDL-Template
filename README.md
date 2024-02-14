@@ -1,5 +1,9 @@
 # SDL-Template
 
+Description in English.
+
+[Read this in Swedish](./README.se.md)
+
 ## About the Template
 
 The SDL-Template serves as an ideal launchpad for projects utilizing the Simple DirectMedia Layer (SDL) library. It's specifically crafted for game development and multimedia applications, providing a streamlined setup process and a well-structured project framework.
