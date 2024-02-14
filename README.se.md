@@ -1,5 +1,9 @@
 # SDL-Template
 
+Beskrivning på Svenska.
+
+[Läs detta på engelska](./README.md)
+
 ## Om Mallen
 
 SDL-Mallen är en utmärkt utgångspunkt för projekt som använder Simple DirectMedia Layer (SDL)-biblioteket. Speciellt utvecklad för spelutveckling och multimediaapplikationer, erbjuder den en smidig installationsprocess och en logiskt strukturerad projektuppbyggnad.
