@@ -1,59 +1,57 @@
 # SDL-Template
 
-Beskrivning på Svenska.
+## Description
 
-[Läs detta på engelska](./README.md)
+[Read this in Swedish](./README.se.md)
 
-## Om Mallen
+### About the Template
 
-SDL-Mallen är en utmärkt utgångspunkt för projekt som använder Simple DirectMedia Layer (SDL)-biblioteket. Speciellt utvecklad för spelutveckling och multimediaapplikationer, erbjuder den en smidig installationsprocess och en logiskt strukturerad projektuppbyggnad.
+The SDL-Template is an exemplary starting point for projects leveraging the Simple DirectMedia Layer (SDL) library. Designed specifically for game development and multimedia applications, it offers a seamless setup process and a logically structured project framework.
 
-## Struktur för Kodföråd
+### Repository Structure
 
-- **assets/**: Innehåller alla spelresurser som bilder, ljud, animationer och andra mediefiler.
-- **bin/**: Här placeras kompilerade eller exekverbara filer. Efter att källkoden byggts, placeras utdata (t.ex. .exe-filer) här.
-- **build/**: Används för att lagra filer som genereras under byggprocessen, inklusive intermediära filer som behövs för kompilering.
-- **config/**: Innehåller konfigurationsfiler med inställningar eller parametrar som spelet laddar vid körning.
-- **data/**: Inkluderar datafiler som spelet använder, såsom leveldesigner, speldatadata eller andra skript.
-- **docs/**: Avsedd för all projektrelaterad dokumentation, inklusive Game Design Documents, utvecklarguider och andra relevanta resurser.
-- **lib/**: Kort för "bibliotek", den här mappen är avsedd för tredjepartsbibliotek eller beroenden som ditt projekt behöver.
-- **LICENSE**: Filen innehåller licensinformation för ditt projekt.
-- **README.md**: En markdown-fil som ger en översikt av ditt projekt, installationsinstruktioner och riktlinjer för användning.
-- **src/**: Kort för "source", där dina källkodsfiler, inklusive spelskript och klasser, är belägna.
-- **tests/**: Innehåller alla testfall, såsom enhetstester och integrationstester.
-- **tools/**: Här finns olika skript eller verktyg för uppgifter som byggnation, distribution eller automatisering av ditt projekt.
+- **src/**: Contains the main source files for your SDL application, organized efficiently.
+- **lib/**: Stores SDL libraries and additional project dependencies.
+- **assets/**: Folders categorically organized for graphics, audio, and other media.
+- **config/**: Configuration files for setting parameters and options in your SDL application.
+- **bin/**: Holds compiled or executable files; outputs such as .exe files are found here after building.
+- **build/**: Used for files generated during the build process, including intermediate compilation files.
+- **data/**: Includes game-used data files like level designs, game configuration data, or scripts.
+- **docs/**: For all project documentation, encompassing Game Design Documents, developer guides, and other resources.
+- **tests/**: Contains all test cases, including unit and integration tests.
+- **tools/**: Various scripts or tools for building, deploying, or automating the project.
 
-## Importering till Replit
+### Importing to Replit
 
-Denna mall är anpassad för en sömlös integration med Replit, en intuitiv miljö för onlineutveckling. För att sätta igång:
+This template is specifically tailored for integration with Replit, an intuitive online development environment. To start:
 
-1. Starta ett nytt projekt på Replit och välj alternativet att importera från GitHub.
-2. Ange URL:en för ditt SDL-Mall-baserade kodföråd.
-3. Replit kommer automatiskt att konfigurera utvecklingsmiljön, inklusive alla nödvändiga beroenden.
+1. Initiate a new project on Replit, selecting the option to import from GitHub.
+2. Enter the URL of your SDL-Template-based repository.
+3. Replit will automatically configure the environment, including all necessary dependencies.
 
-## Användarinstruktioner
+### How to Use
 
-### För nya användare av Replit
-Om du är ny på Replit, börja med att skapa ett gratis konto på [Replit.com](https://replit.com/), helst genom att använda ditt Google skolkonto för att förenkla processen.
+#### For New Replit Users
+If new to Replit, sign up for a free account at [Replit.com](https://replit.com/), preferably using your Google school account for convenience.
 
-### Konfigurera SDL-Mallen
-1. Gå till din instrumentpanel på Replit och välj 'Create' för att starta ett nytt projekt.
-2. Välj att importera från GitHub om du avser att använda denna mall.
-3. Gör dig bekant med Replits funktioner som kodredigeraren, konsolutskrift och felsökningsverktyg.
+#### Setting Up the SDL-Template
+1. Go to your Replit dashboard and select 'Create' to start a new project.
+2. Choose to import from GitHub when using this template.
+3. Get acquainted with Replit’s features like the code editor, console output, and debugging tools.
 
-### Utvecklingsprocess med SDL-Mallen
-1. Klicka på "Use this template" på sidan för kodförådet för att skapa en grund för ditt projekt.
-2. Skapa ett nytt kodföråd utifrån denna mall.
-3. Importera kodförådet till Replit, eller klona det lokalt, för att påbörja utvecklingen av ditt SDL-projekt.
+#### Developing With the SDL-Template
+1. Click "Use this template" on the repository page to lay the foundation of your project.
+2. Establish a new repository from this template.
+3. Import the repository to Replit or clone it locally to start your SDL project development.
 
-## Dokumentation
+### Documentation
 
-För att förstå SDL och dess användning inom spelutveckling är följande resurser väsentliga:
+Understanding SDL and its application in game development is essential. To get started:
 
-- [SDL Officiell Dokumentation](https://wiki.libsdl.org/): Din primära källa för information om SDL-funktioner och API-detaljer.
-- [Början på Spelutveckling med SDL](https://lazyfoo.net/tutorials/SDL/): En djupgående tutorialserie som täcker grunderna i SDL.
-- [SDL Utvecklingsguide på Replit](https://www.replit.com/site/docs/repls/sdl): Specialanpassade instruktioner för att arbeta med SDL i Replit.
+- [SDL Official Documentation](https://wiki.libsdl.org/): The primary source for SDL functions and API details.
+- [Beginning Game Development with SDL](https://lazyfoo.net/tutorials/SDL/): An extensive tutorial series covering SDL basics.
+- [SDL Development Guide on Replit](https://www.replit.com/site/docs/repls/sdl): Customized instructions for working with SDL in Replit.
 
-## Licens
+### License
 
-Projektet distribueras under Unlicense, vilket möjliggör fri användning. Bidrag och förgreningar av denna mall stöds dock inte.
+This project is freely distributed under the Unlicense, allowing unrestricted use. Contributions and forks of this template are not supported.
